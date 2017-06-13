@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+
+.header {
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+
+.html_table {
+	padding: 50px;
+}
+
+.header_div h3 {
+	background-color: olive;
+	height: 100px;
+	width: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.success {
+	text-align: center;
+	padding-top: 100px;
+	color: red;
+}
+.failure {
+	text-align: center;
+	padding-top: 100px;
+	color: red;
+}
+
+.td_1 {
+	background-color: maroon;
+	width: 150px;
+	height: 1000px padding-right: 250px;
+}
+
+.td_2 {
+	background-color: teal;
+	padding-top: 5px;
+	width: 1050px;
+	height:;
+}
+
+.td_3 {
+	background-color: blue;
+	width: 150px;
+	height: auto;
+	padding-right: 15px;
+}

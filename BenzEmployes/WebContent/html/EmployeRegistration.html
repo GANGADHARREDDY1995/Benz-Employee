@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/Styles.css" />
+<title>employ registration</title>
+</head>
+<body class="html_body">
+	<form action="../inserting.do" method="post">
+		<h1 class="header">Employ Registration</h1>
+		<div class="html_table">
+			<table>
+				<tr>
+					<td><label>Employ Id</label></td>
+					<td><input type="text" name="empId"
+						placeholder="enter employe id" maxlength="20"></td>
+				</tr>
+				<tr>
+					<td><label>Employ Name</label></td>
+					<td><input type="text" name="empName"
+						placeholder="enter employ name" maxlength="20"></td>
+				</tr>
+				<tr>
+					<td><label>Employ Phone Number</label></td>
+					<td><input type="number" name="empPhoneNumber"
+						placeholder="enter employ phone number" maxlength="10"></td>
+				</tr>
+				<tr>
+					<td><label>Employ Address</label></td>
+					<td><input type="text" width="100px" height="250px"
+						name="empAddress" placeholder="enter employ address"></td>
+				</tr>
+				<tr>
+					<td><label>Employ Gender</label></td>
+					<td>Male:<input type="checkbox" name="empGender" value="m"></td>
+					<td>FeMale:<input type="checkbox" name="empGender" value="f"></td>
+					<td>Others:<input type="checkbox" name="empGender" value="o"></td>
+				<tr>
+					<td><label>Employ Email</label></td>
+					<td><input type="email" name="empEmail"
+						placeholder="enter employ email"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="submit" width="50px"></td>
+					<td><input type="reset" value="reset" width="50px"></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</body>
+</html>
